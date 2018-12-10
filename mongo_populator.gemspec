@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.files        = Dir["{lib,spec}/**/*", "[A-Z]*"]
   s.require_path = "lib"
 
-  s.add_runtime_dependency 'mongo', '~> 1.3.1'
+  s.add_runtime_dependency 'mongo', '~> 2.6.2'
 
   s.add_development_dependency 'rspec', '~> 2.6.0'
   s.add_development_dependency 'mocha', '~> 0.10.0'
